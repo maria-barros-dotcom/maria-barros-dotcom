@@ -1,22 +1,21 @@
 name: Generate Snake
 
 on:
-  # Executa automaticamente todos os dias à meia-noite
   schedule:
     - cron: "0 0 * * *" 
-  
-  # Permite executar manualmente na aba "Actions" se você quiser testar
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     
+    # ADICIONE ESTE BLOCO DE PERMISSÕES AQUI
+    permissions: 
+      contents: write
+
     steps:
-      # Verifica o código do repositório
       - uses: actions/checkout@v3
       
-      # Gera a animação da cobrinha lendo o gráfico de contribuições
       - name: generate-snake-game-from-github-contribution-grid
         uses: Platane/snk/svg-only@v3
         with:
@@ -25,8 +24,6 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
           
-      # Pega os arquivos gerados (na pasta dist) e envia para uma branch separada chamada 'output'
-      # Isso evita poluir o seu repositório principal com imagens.
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
