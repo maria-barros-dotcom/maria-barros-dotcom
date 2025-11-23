@@ -1,5 +1,8 @@
 ## Hi there, I'm Maria :)
 
+#### A bit on my journey
+
+I'm a recently graduated physics engineering student, who fell in love with data science during her Bachelor, at FCUP, Porto University. I recently started my masters in Data Science and Engineering and I'm hoping to learn more about it everyday. Excited to enroll in projects where my knowledge can be used and improved!
 <!--
 **maria-barros-dotcom/maria-barros-dotcom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
