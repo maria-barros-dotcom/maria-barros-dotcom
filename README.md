@@ -23,4 +23,4 @@ Here are some ideas to get you started:
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="vscode" width="45" height="45" />                          
 </p>
 
-![Snake animation](https://github.com/maria-barros-dotcom/thepiyushmalhotra/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/maria-barros-dotcom/maria-barros-dotcom/blob/output/github-contribution-grid-snake.svg)
