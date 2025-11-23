@@ -6,7 +6,7 @@ I'm a recently graduated physics engineering student, who fell in love with data
 
 I recently started my masters in Data Science and Engineering at FEUP, Porto University and I'm hoping to learn more about it everyday. Excited to enroll in projects where my knowledge can be used and improved!
 
-📫 How to reach me: 
+📫 **How to reach me**: 
 <div align="center">
 
   <a href="https://www.linkedin.com/in/maria-barros-0a42402b4/">
